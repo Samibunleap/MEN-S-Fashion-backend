@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "name": "Admin",
+    "email": "admin@gmail.com",
+    "password": "admin123",
+    "role": "admin",
+    "phone": ""
+  },
+  {
+    "id": 2,
+    "name": "bunleap",
+    "email": "bunleap@gmail.com",
+    "password": "123456",
+    "phone": "12345678",
+    "role": "customer",
+    "createdAt": "2026-08-27T09:02:57.423Z"
+  }
+]

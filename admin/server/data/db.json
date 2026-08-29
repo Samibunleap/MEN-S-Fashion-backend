@@ -1,0 +1,21 @@
+{
+  "users": [
+    {"id":"U001","username":"admin","password":"123","name":"Admin User","role":"Administrator"}
+  ],
+  "products": [
+    {"id":"P001","name":"Brown Hoodie","category":"Clothing","price":35,"stock":18,"description":"Premium cotton hoodie for men.","image":"https://placehold.co/300x300/A67B5B/FFFFFF?text=Brown+Hoodie"},
+    {"id":"P002","name":"Leather Jacket","category":"Jacket","price":120,"stock":6,"description":"High quality leather jacket.","image":"https://placehold.co/300x300/6F4E37/FFFFFF?text=Leather+Jacket"},
+    {"id":"P003","name":"White Sneaker","category":"Shoes","price":70,"stock":24,"description":"Comfortable everyday sneakers.","image":"https://placehold.co/300x300/F3F4F6/111827?text=White+Sneaker"}
+  ],
+  "orders": [
+    {"id":"ORD001","customer":"John Smith","date":"06 Aug 2026","total":120,"payment":"Paid","status":"Delivered"},
+    {"id":"ORD002","customer":"Emma Watson","date":"06 Aug 2026","total":65,"payment":"Pending","status":"Processing"},
+    {"id":"ORD003","customer":"Michael Lee","date":"05 Aug 2026","total":95,"payment":"Paid","status":"Shipping"}
+  ],
+  "customers": [
+    {"id":"C001","name":"John Smith","email":"john@example.com"},
+    {"id":"C002","name":"Emma Watson","email":"emma@example.com"},
+    {"id":"C003","name":"Michael Lee","email":"michael@example.com"}
+  ],
+  "categories": ["Clothing","Shoes","Jacket","Accessories","Bags"]
+}

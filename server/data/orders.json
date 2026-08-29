@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "customerName": "bunleap",
+    "customerEmail": "bunleap@gmail.com",
+    "customerPhone": "12345678",
+    "items": [
+      {
+        "name": "Smart Casual Blazer",
+        "qty": 1,
+        "details": "Size: M",
+        "unitPrice": 120,
+        "img": "/image/Smart Casual Blazer.png"
+      }
+    ],
+    "address": "st598, Phnom Penh",
+    "total": 120,
+    "paymentMethod": "ABA / Bank Transfer",
+    "paymentStatus": "PAYMENT_CONFIRMED",
+    "orderStatus": "DELIVERED",
+    "createdAt": "2026-08-27T09:03:34.497Z",
+    "updatedAt": "2026-08-27T09:21:59.468Z"
+  }
+]

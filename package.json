@@ -1,0 +1,14 @@
+{
+  "name": "mens-fashion",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install:all": "npm --prefix frontend install && npm --prefix admin install && npm --prefix server install",
+    "start": "concurrently \"npm --prefix server run start\" \"npm --prefix frontend run dev\" \"npm --prefix admin run dev\"",
+    "dev": "concurrently \"npm --prefix server run dev\" \"npm --prefix frontend run dev\" \"npm --prefix admin run dev\"",
+    "postinstall": "npm --prefix frontend install && npm --prefix admin install && npm --prefix server install"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.4"
+  }
+}

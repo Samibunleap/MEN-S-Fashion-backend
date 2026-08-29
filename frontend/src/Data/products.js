@@ -1,0 +1,20 @@
+export const products = [
+  { id: 1, name: "Leather Biker Jacket", price: 89, cat: "Clothing", tag: "clothing", img: "/image/Leather Biker Jacket.png", desc: "A sleek black leather biker jacket with an asymmetric zip and snap lapels." },
+  { id: 2, name: "Smart Casual Blazer", price: 120, cat: "Clothing", tag: "clothing", img: "/image/Smart Casual Blazer.png", desc: "Impeccably tailored in a khaki mid-weight fabric." },
+  { id: 3, name: "Technical Field Parka", price: 89, cat: "Clothing", tag: "clothing", img: "/image/Technical Field Parka.png", desc: "An olive wax-coated field jacket with zip-out hood." },
+  { id: 4, name: "Half-Zip Knit Sweater", price: 50, cat: "Clothing", tag: "clothing", img: "/image/Half-Zip Knit Sweater.jpg", desc: "A ribbed camel half-zip in extra-fine merino wool." },
+  { id: 5, name: "Three-Piece Tweed Suit", price: 120, cat: "Clothing", tag: "clothing", img: "/image/Three-Piece Tweed Suit.png", desc: "A blue windowpane three-piece in heritage tweed." },
+  { id: 6, name: "Street Sweatshirt", price: 35, cat: "Clothing", tag: "clothing", img: "/image/Street Sweatshirt.png", desc: "A relaxed French terry crew in dusty rose." },
+  { id: 7, name: "Slim Chino Trouser", price: 35, cat: "Clothing", tag: "clothing", img: "/image/Slim Chino Trouser.png", desc: "A grey slim-cut chino in brushed cotton twill." },
+  { id: 8, name: "Oxford Dress Shirt", price: 45, cat: "Clothing", tag: "clothing", img: "/image/Oxford Dress Shirt.png", desc: "A classic Oxford cloth button-down in a subtle print." },
+  { id: 9, name: "Monochrome Sneaker", price: 30, cat: "Footwear", tag: "footwear", img: "/image/Monochrome Sneaker.png", desc: "A sage-green tonal low-top with deconstructed panelling." },
+  { id: 10, name: "White Leather Sneaker", price: 25, cat: "Footwear", tag: "footwear", img: "/image/White Leather Sneaker.png", desc: "A clean white cup-sole sneaker with a premium leather upper." },
+  { id: 11, name: "Brogue Derby Shoe", price: 29, cat: "Footwear", tag: "footwear", img: "/image/Brogue Derby Shoe.png", desc: "A dark tan leather brogue with cap-toe stitching." },
+  { id: 12, name: "Chelsea Boot", price: 25, cat: "Footwear", tag: "footwear", img: "/image/Chelsea Boot.png", desc: "A sleek Chelsea boot in smooth calfskin." },
+  { id: 13, name: "Chronograph Watch", price: 25, cat: "Accessories", tag: "watches", img: "/image/Chronograph Watch.png", desc: "A diver-inspired chronograph with a vivid blue dial." },
+  { id: 14, name: "Minimalist Mesh Watch", price: 15, cat: "Accessories", tag: "watches", img: "/image/Minimalist Mesh Watch.png", desc: "A slim 38mm stainless case on a fine mesh bracelet." },
+  { id: 15, name: "Woven Leather Belt", price: 25, cat: "Accessories", tag: "belts", img: "/image/Woven Leather Belt.png", desc: "A hand-woven full-grain leather belt." },
+  { id: 16, name: "Leather Bifold Wallet", price: 15, cat: "Accessories", tag: "wallets", img: "/image/Leather Bifold Wallet.png", desc: "A slim bifold in full-grain vegetable-tanned leather." },
+  { id: 17, name: "Merino Wool Scarf", price: 10, cat: "Accessories", tag: "scarves", img: "/image/Merino Wool Scarf.png", desc: "An extra-fine merino scarf in a herringbone weave." },
+  { id: 18, name: "Canvas Tote Bag", price: 110, cat: "Accessories", tag: "bags", img: "/image/Canvas Tote Bag.png", desc: "A waxed canvas tote with leather handles." }
+];

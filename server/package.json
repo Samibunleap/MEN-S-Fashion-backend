@@ -1,0 +1,19 @@
+{
+  "name": "mens-fashion-backend",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "start:mysql": "node server_mysql.js",
+    "dev:mysql": "node server_mysql.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^13.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^4.21.2",
+    "mysql2": "^3.24.2"
+  }
+}
