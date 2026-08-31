@@ -175,16 +175,18 @@ function DashboardHeader() {
         </div>
 
         <div className="admin-profile">
-          <div className="admin-avatar">
-            {(profile?.name || "A")
-              .charAt(0)
-              .toUpperCase()}
-          </div>
+          {profile?.image ? (
+            <img src={profile.image} alt="Admin-avatar" />
+          ) : (
+            <div className="admin-avatar-fallback">
+              {(profile?.name || "A")
+                .charAt(0)
+                .toUpperCase()}
+            </div>
+          )}
 
           <div>
-            <h4>
-              {profile?.name || "Admin"}
-            </h4>
+            <h4>{profile?.name || "Admin"}</h4>
             <small>Administrator</small>
           </div>
         </div>
