@@ -18,7 +18,7 @@ USE mens_fashion;
 -- DROP TABLE IF EXISTS contact_messages;
 -- DROP TABLE IF EXISTS orders;
 -- DROP TABLE IF EXISTS products;
--- DROP TABLE IF EXISTS categories;
+-- DROP TABLE IF EXISTS categories; 
 -- DROP TABLE IF EXISTS settings;
 -- DROP TABLE IF EXISTS users;
 

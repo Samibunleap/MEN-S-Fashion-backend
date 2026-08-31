@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function NotificationSettings() {
   const [notifications, setNotifications] = useState({
@@ -9,6 +9,16 @@ function NotificationSettings() {
     promotionNotification: false,
   });
 
+  useEffect(() => {
+    const savedSettings = localStorage.getItem(
+      "notificationSettings"
+    );
+
+    if (savedSettings) {
+      setNotifications(JSON.parse(savedSettings));
+    }
+  }, []);
+
   const handleChange = (e) => {
     setNotifications({
       ...notifications,
@@ -18,16 +28,20 @@ function NotificationSettings() {
 
   const saveNotifications = (e) => {
     e.preventDefault();
+
+    localStorage.setItem(
+      "notificationSettings",
+      JSON.stringify(notifications)
+    );
+
     alert("Notification settings saved successfully!");
   };
 
   return (
     <div className="settings-card">
-
       <h2>Notification Settings</h2>
 
       <form onSubmit={saveNotifications}>
-
         <div className="notification-list">
 
           <label className="notification-item">
@@ -83,18 +97,14 @@ function NotificationSettings() {
         </div>
 
         <div className="settings-buttons">
-
           <button
             type="submit"
             className="btn-save-settings"
           >
             Save Notification Settings
           </button>
-
-        </div>  
-
+        </div>
       </form>
-
     </div>
   );
 }

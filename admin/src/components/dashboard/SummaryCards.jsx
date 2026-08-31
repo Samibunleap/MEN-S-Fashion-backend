@@ -28,10 +28,10 @@ function SummaryCards() {
   }, []);
 
   const cards = [
-    { title: "Total Orders", value: stats.totalOrders.toLocaleString(), icon: "FaShoppingBag", color: "#6366f1" },
-    { title: "Total Revenue", value: `$${stats.revenue.toLocaleString()}`, icon: "FaDollarSign", color: "#22c55e" },
-    { title: "Total Customers", value: stats.totalCustomers.toLocaleString(), icon: "FaUsers", color: "#f59e0b" },
-    { title: "Total Products", value: stats.totalProducts.toLocaleString(), icon: "FaBoxOpen", color: "#3b82f6" },
+    { title: "Total Orders", value: stats.totalOrders.toLocaleString(), icon: "FaShoppingBag", color: "" },
+    { title: "Total Revenue", value: `$${stats.revenue.toLocaleString()}`, icon: "FaDollarSign", color: "" },
+    { title: "Total Customers", value: stats.totalCustomers.toLocaleString(), icon: "FaUsers", color: "" },
+    { title: "Total Products", value: stats.totalProducts.toLocaleString(), icon: "FaBoxOpen", color: "" },
   ];
 
   return (
