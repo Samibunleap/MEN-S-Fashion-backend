@@ -29,7 +29,6 @@ export default function Checkout({ cart = [], currentUser, onCompleteOrder, show
       if (showToast) showToast('Please fill in all delivery details!');
       return;
     }
-as
     const newOrderData = {
       fullName: formData.fullName,
       streetAddress: formData.streetAddress,
@@ -37,7 +36,7 @@ as
       phone: formData.phone,
       paymentMethod: selectedPayment === 'aba' ? 'ABA Mobile App' : 'Bakong KHQR'
     };
-     onCompleteOrder(newOrderData);
+    onCompleteOrder(newOrderData);
     window.open(abaPayUrl, '_blank');
     navigate('/dashboard');
   };
