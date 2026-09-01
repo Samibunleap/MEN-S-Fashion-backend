@@ -16,6 +16,12 @@ build/
 !.env.example
 !**/.env.example
 
+# PayWay secret keys
+secrets/
+**/secrets/
+*.pem
+**/*.pem
+
 # Logs
 *.log
 npm-debug.log*
